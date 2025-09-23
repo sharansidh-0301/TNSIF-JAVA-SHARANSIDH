@@ -2,14 +2,15 @@ package basics.of.java;
 import java.util.*;
 
 class human{
-	boolean haveEyes;
+	String name; 
 	String color;
-	boolean haveHands;
-	
-	human(boolean e, String c, boolean h){
-		this.color = c;
-		this.haveEyes = e;
-		this.haveHands =h;
+	int age;
+	char gender;
+	human(String name, String color, int age, char gender ){
+		this.color = color ;
+		this.name = name ;
+		this.age = age;
+		this.gender = gender;
 	}
 }
 
@@ -17,10 +18,13 @@ public class DemoJava {
 
 	public static void main(String[] args) {
 		
-		human obj = new human(true,"White",false);
+		human obj = new human("Sidh","White",21,'M');
 		System.out.println(obj.color);
-		System.out.println(obj.haveEyes);
-		System.out.println(obj.haveHands);
+		System.out.println(obj.name);
+		System.out.println(obj.gender);
+		System.out.println(obj.age);
+		System.out.println(obj.gender);
+		s
 	}
 
 }
