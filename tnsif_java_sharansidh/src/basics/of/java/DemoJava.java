@@ -21,7 +21,6 @@ public class DemoJava {
 		System.out.println(obj.color);
 		System.out.println(obj.haveEyes);
 		System.out.println(obj.haveHands);
-		System.out.println("Hi");
 	}
 
 }
