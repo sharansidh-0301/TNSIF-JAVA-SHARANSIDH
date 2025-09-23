@@ -16,7 +16,7 @@ class human{
 public class DemoJava {
 
 	public static void main(String[] args) {
-		human obj = new human("Sidh","Maaniram",22,'M');
+		human obj = new human("Sidh","Maniram",22,'M');
 		System.out.println(obj.color);
 		System.out.println(obj.name);
 		System.out.println(obj.gender);
