@@ -16,13 +16,12 @@ class human{
 public class DemoJava {
 
 	public static void main(String[] args) {
-		human obj = new human("Sidh","White",22,'M');
+		human obj = new human("Sidh","Maaniram",22,'M');
 		System.out.println(obj.color);
 		System.out.println(obj.name);
 		System.out.println(obj.gender);
 		System.out.println(obj.age);
 		System.out.println(obj.gender);
-		
 	}
 
 }
