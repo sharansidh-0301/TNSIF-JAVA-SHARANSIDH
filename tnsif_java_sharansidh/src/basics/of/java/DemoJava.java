@@ -1,5 +1,10 @@
 package basics.of.java;
 
+/* 
+  
+  
+  */
+
 class human{
 	String name; 
 	String color;
